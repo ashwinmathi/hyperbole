@@ -77,7 +77,7 @@ library
     , data-default >0.7 && <0.9
     , effectful >=2.3 && <3
     , file-embed >=0.0.10 && <0.1
-    , http-api-data >=0.5 <0.7
+    , http-api-data >=0.5 && <0.7
     , http-types ==0.12.*
     , network >=3.1 && <4
     , string-conversions ==0.4.*
