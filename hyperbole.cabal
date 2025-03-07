@@ -74,10 +74,10 @@ library
     , casing >0.1 && <0.2
     , containers >=0.6 && <1
     , cookie >=0.4 && <0.6
-    , data-default >0.8 && <0.9
-    , effectful >=2.4 && <3
+    , data-default >0.7 && <0.9
+    , effectful >=2.3 && <3
     , file-embed >=0.0.10 && <0.1
-    , http-api-data ==0.6.*
+    , http-api-data >=0.5 <0.7
     , http-types ==0.12.*
     , network >=3.1 && <4
     , string-conversions ==0.4.*
