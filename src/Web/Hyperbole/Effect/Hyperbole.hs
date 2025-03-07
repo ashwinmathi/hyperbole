@@ -32,7 +32,7 @@ runHyperbole = fmap combine $ reinterpret runLocal $ \_ -> \case
   RespondEarly r -> do
     s <- gets @HyperState (.client)
     send $ SendResponse s r
-    throwError_ r
+    throwError r
   GetClient -> do
     gets @HyperState (.client)
   ModClient f -> do
